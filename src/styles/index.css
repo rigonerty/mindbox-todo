@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(206, 206, 206);
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+body{
+    background: black;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

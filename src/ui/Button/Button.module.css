@@ -1,0 +1,17 @@
+.Button{
+    background: transparent;
+    border: none;
+    padding: .2em .8em;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.Button.active{
+    border: 1px solid gray;
+}
+@media screen and (min-width:1440px) {
+    .Button{
+        padding: .2vw .9vw;
+        font-size: 1.1vw;
+    }    
+}

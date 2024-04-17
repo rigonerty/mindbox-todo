@@ -1,0 +1,33 @@
+.TodoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7em;
+}
+
+@media screen and (max-width:600px) {
+    .TodoFooter{
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: .5em;
+    }
+    .TodoFooter>p{
+        display: block;
+        padding: .3em 0;
+        text-align: center;
+        width: 100%;
+        flex: 0 0 auto;
+        background: rgb(17, 17, 17);
+    }
+    .TodoFooter>div{
+        margin: .5em;
+    }
+}
+@media screen and (min-width:1440px) {
+    .TodoFooter{
+        padding: .77vw;
+    } 
+    .TodoFooter>p{
+        font-size: 1.1vw;
+    }
+}

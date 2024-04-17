@@ -1,0 +1,26 @@
+.Input{
+    display: block;
+    width:100%;
+    font-size: 1.1em;
+}
+.Input input{
+    width: 100%;
+    font-size: .95em;
+    background: transparent;
+    border: none;
+    padding: .8em;
+    border-radius: .4em;
+}
+.Input input:focus{
+    outline: none;
+}
+@media screen and (min-width:1440px) {
+    .Input{
+        font-size: 1.23vw;
+    }
+    .Input input{
+        font-size: .95em;
+        padding: .94vw;
+        border-radius: 1vw;
+    }   
+}

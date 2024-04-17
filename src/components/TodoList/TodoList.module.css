@@ -1,0 +1,16 @@
+.TodoList{
+    padding: 0 .5em;
+    height: 90%;
+    overflow-y: auto;
+}
+.TodoList>p{
+    text-align: center;
+}
+@media screen and (min-width:1440px) {
+    .TodoList{
+        padding: 0 .57vw;
+    } 
+    .TodoList>p{
+        font-size: 1.1vw;
+    }   
+}
